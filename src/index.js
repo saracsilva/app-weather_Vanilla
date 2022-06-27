@@ -103,7 +103,7 @@ function showTemperature(response) {
   let iconElement = document.querySelector("#iconCurrentDay");
   iconElement.setAttribute(
     "src",
-    `src/img/${response.data.weather[0].icon}.png`
+    `./src/img/${response.data.weather[0].icon}.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
